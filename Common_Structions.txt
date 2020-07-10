@@ -1,0 +1,8 @@
+ 
+progen init -p stm32f103c8_rtt -tar stm32f103c8 
+
+ 
+progen generate -f projects.yaml -p stm32f103c8_rtt -t iar_arm
+
+ 
+git submodule add https://github.com/SuWeipeng/rt-thread.git Libraries/rt-thread
